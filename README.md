@@ -1,6 +1,16 @@
 # AzureContent
 Public content aimed to help for Azure challenges
 
+Please contact me for the latest version
+
+# Governance
+## Orphaned Resources
+https://github.com/dolevshor/azure-orphan-resources
+
+## Azure Checklists
+https://github.com/Azure/review-checklists
+
+
 # Infrastructure as code
 
 ## CARMLUpgrade.ps1
@@ -13,13 +23,3 @@ Changes:
 - Microsoft.AAD --> AAD
 - Deploy.bicep --> Main.bicep
 - Pascal case to '-' dash separated lower case (e.g. DataFactory --> data-factory
-
-Please contact me for the latest version
-
-# Governance
-## Orphaned Resources
-https://github.com/dolevshor/azure-orphan-resources
-
-##Azure Checklists
-https://github.com/Azure/review-checklists
-
