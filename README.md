@@ -9,7 +9,9 @@ Please contact me for the latest version
 
 # Infrastructure as code
 
-## CARMLUpgrade.ps1
+- [Azure verified modules](https://azure.github.io/Azure-Verified-Modules/)
+
+## CARMLUpgrade.ps1 (upon request can be shared)
 - added bicep CARML upgrade script for the old structure (Feb 2023) -> to the latest structure (Feb 2024)
 - Note that Bicep is undergoing changes towards Azure Verified Modules
 - Note tha this script only corrects the structure, not the content
