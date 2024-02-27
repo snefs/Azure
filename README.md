@@ -1,7 +1,6 @@
 # AzureContent
 Public content aimed to help for Azure challenges
 
-Please contact me for the latest version
 
 # Governance
 - [Orphaned Resources](https://github.com/dolevshor/azure-orphan-resources)
