@@ -1,6 +1,8 @@
 # AzureContent
 Public content aimed to help for Azure challenges
 
+# Architecture
+- ## [DRAW IO Azure Integration stencil](https://github.com/snefs/AzureChallenges/blob/main/ms-integration-stencils.xml)
 
 # Governance
 - [Orphaned Resources](https://github.com/dolevshor/azure-orphan-resources)
@@ -8,15 +10,15 @@ Public content aimed to help for Azure challenges
 
 # Infrastructure as code
 
-- [Azure verified modules](https://azure.github.io/Azure-Verified-Modules/)
+## [Azure verified modules](https://azure.github.io/Azure-Verified-Modules/)
 
-## [CARMLUpgrade.ps1](https://github.com/snefs/AzureChallenges/blob/main/CARMLUPgrade.ps1) (can be discussed upon request)
-- added bicep CARML upgrade script for the old structure (Feb 2023) -> to the latest structure (Feb 2024)
-- Note that Bicep is undergoing changes towards Azure Verified Modules
-- Note tha this script only corrects the structure, not the content
+- [CARML Upgrade script](https://github.com/snefs/AzureChallenges/blob/main/CARMLUPgrade.ps1) (can be discussed upon request)
+  - added bicep CARML upgrade script for the old structure (Feb 2023) -> to the latest structure (Feb 2024)
+  - Note that Bicep is undergoing changes towards Azure Verified Modules
+  - Note tha this script only corrects the structure, not the content
   
-Changes:
-- Plural to single (policies --> policy)
-- Microsoft.AAD --> AAD
-- Deploy.bicep --> Main.bicep
-- Pascal case to '-' dash separated lower case (e.g. DataFactory --> data-factory
+  Changes:
+  - Plural to single (policies --> policy)
+  - Microsoft.AAD --> AAD
+  - Deploy.bicep --> Main.bicep
+  - Pascal case to '-' dash separated lower case (e.g. DataFactory --> data-factory
