@@ -2,7 +2,7 @@
 Public content aimed to help for Azure challenges
 
 # Architecture
-- ## [DRAW IO Azure Integration stencil](https://github.com/snefs/AzureChallenges/blob/main/ms-integration-stencils.xml)
+- ## [azurediagrams](https://azurediagrams.com/)
 
 # Governance
 - [Orphaned Resources](https://github.com/dolevshor/azure-orphan-resources)
