@@ -4,6 +4,7 @@ Public content aimed to help for Azure challenges
 # Architecture
 - ## [azurediagrams](https://azurediagrams.com/)
 - ## [mingrammer](https://github.com/mingrammer/diagrams)
+- ## [Azure visualizer](https://dev.to/prateeksingh/azure-visualizer-automated-diagrams-using-powershell-1m95)
 
 # Governance
 - [Orphaned Resources](https://github.com/dolevshor/azure-orphan-resources)
