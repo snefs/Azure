@@ -28,8 +28,5 @@ Public content aimed to help for Azure challenges
 
 # News
 
-NotebookLM Ignite2024_BookofNews
-<audio controls>
-  <source src="https://github.com/snefs/Azure/blob/main/Audio/ignite2024_bookofnews.mp3" />
-</audio>
+<a href="https://github.com/snefs/Azure/blob/main/Audio/ignite2024_bookofnews.mp3">Ignite 2024 Book of news (AI generated with NotebookLM 19-nov-2024)</a>
 
