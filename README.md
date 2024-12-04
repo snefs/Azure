@@ -26,6 +26,39 @@ Public content aimed to help for Azure challenges
   - Pascal case to '-' dash separated lower case (e.g. DataFactory --> data-factory
 
 
+## Document Yaml pipelines (only tested with Azure Devops)
+
+### Learn
+
+Context
+https://github.com/Microsoft/azure-pipelines-vscode
+
+### Prepare
+
+Retrieve your organization schema
+https://dev.azure.com/<YOURORG>/_apis/distributedtask/yamlschema
+
+Retrieve entire Yaml
+1. Run a pipeline
+2. Download logs
+3. Look for azure-pipelines-expanded.yaml
+
+
+### Generate
+
+[Script (5-dec-2024: yaml2md.v03.ps1](https://github.com/snefs/Azure/blob/main/Yaml)
+
+Run this script (without parameters):
+
+
+
+.\yaml2md.v03.ps1
+
+Run this script (with parameters):
+
+.\yaml2md.v03.ps1 -YamlPath "mycoolpipeline.yaml" -OutputPath "pipeline-documentation.md" -KeywordsPath "keywords.json"
+
+
 # Audio
 
 [Audio files](./Audio/Audiofiles.md)
