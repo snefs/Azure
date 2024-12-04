@@ -28,36 +28,27 @@ Public content aimed to help for Azure challenges
 
 ## Document Yaml pipelines (only tested with Azure Devops)
 
-### Learn
-
-Context
+- Context
 https://github.com/Microsoft/azure-pipelines-vscode
 
-### Prepare
+- Prepare
 
-Retrieve your organization schema
-https://dev.azure.com/<YOURORG>/_apis/distributedtask/yamlschema
+  - Retrieve entire Yaml
+    - 1. Run a pipeline
+    - 2. Download logs
+    - 3. Look for azure-pipelines-expanded.yaml
+         
+  note: You can expand this script by using the Yaml schema, this is however a schema that I couldn't get prompted, this is why the keywords.json is used for descriptions. 
+  Retrieve your organization schema: https://dev.azure.com/<YOURORG>/_apis/distributedtask/yamlschema
 
-Retrieve entire Yaml
-1. Run a pipeline
-2. Download logs
-3. Look for azure-pipelines-expanded.yaml
-
-
-### Generate
-
+- Generate
 [Script (5-dec-2024: yaml2md.v03.ps1](https://github.com/snefs/Azure/blob/main/Yaml)
 
-Run this script (without parameters):
+- Run this script (without parameters):
+  - .\yaml2md.v03.ps1
 
-
-
-.\yaml2md.v03.ps1
-
-Run this script (with parameters):
-
-.\yaml2md.v03.ps1 -YamlPath "mycoolpipeline.yaml" -OutputPath "pipeline-documentation.md" -KeywordsPath "keywords.json"
-
+- Run this script (with parameters):
+  - .\yaml2md.v03.ps1 -YamlPath "mycoolpipeline.yaml" -OutputPath "pipeline-documentation.md" -KeywordsPath "keywords.json"
 
 # Audio
 
