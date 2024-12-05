@@ -2,28 +2,24 @@
 Public content aimed to help for Azure challenges
 
 # Architecture
+Several links that can help defining / documenting architectural high level diagrams
 - ## [azurediagrams](https://azurediagrams.com/)
 - ## [mingrammer](https://github.com/mingrammer/diagrams)
 - ## [Azure visualizer](https://dev.to/prateeksingh/azure-visualizer-automated-diagrams-using-powershell-1m95)
 
 # Governance
+Several links that help you maintain/manage your Azure environment  
 - [Orphaned Resources](https://github.com/dolevshor/azure-orphan-resources)
--  [Azure Checklists](https://github.com/Azure/review-checklists)
+- [Azure Checklists](https://github.com/Azure/review-checklists)
+- [FinOps](https://learn.microsoft.com/en-us/cloud-computing/finops/toolkit/finops-toolkit-overview)
+
 
 # Infrastructure as code
+Several initiatives that could help getting around common challenges
 
-## [Azure verified modules](https://azure.github.io/Azure-Verified-Modules/)
-
-- [CARML Upgrade script](https://github.com/snefs/Azure/blob/main/Bicep/CARMLUPgrade.ps1) (can be discussed upon request)
-  - added bicep CARML upgrade script for the old structure (Feb 2023) -> to the latest structure (Feb 2024)
-  - Note that Bicep is undergoing changes towards Azure Verified Modules
-  - Note tha this script only corrects the structure, not the content
-  
-  Changes:
-  - Plural to single (policies --> policy)
-  - Microsoft.AAD --> AAD
-  - Deploy.bicep --> Main.bicep
-  - Pascal case to '-' dash separated lower case (e.g. DataFactory --> data-factory
+### Blogs
+[PSDocs](https://www.linkedin.com/pulse/documenting-bicep-psdocs-psbicep-sander-nefs-azure-integration--pznhe/)
+[PowerShell to deploy Search](https://www.linkedin.com/pulse/deploying-azure-ai-search-artefacts-index-indexer-sander-usioe/?trackingId=WsQ5kz1PTxGqMmVXytwonw%3D%3D)
 
 
 ## Document Yaml pipelines (only tested with Azure Devops)
@@ -49,6 +45,21 @@ https://github.com/Microsoft/azure-pipelines-vscode
 
 - Run this script (with parameters):
   - .\yaml2md.v03.ps1 -YamlPath "mycoolpipeline.yaml" -OutputPath "pipeline-documentation.md" -KeywordsPath "keywords.json"
+
+
+## [Azure verified modules](https://azure.github.io/Azure-Verified-Modules/)
+
+- [CARML Upgrade script](https://github.com/snefs/Azure/blob/main/Bicep/CARMLUPgrade.ps1) (can be discussed upon request)
+  - added bicep CARML upgrade script for the old structure (Feb 2023) -> to the latest structure (Feb 2024)
+  - Note that Bicep is undergoing changes towards Azure Verified Modules
+  - Note tha this script only corrects the structure, not the content
+  
+  Changes:
+  - Plural to single (policies --> policy)
+  - Microsoft.AAD --> AAD
+  - Deploy.bicep --> Main.bicep
+  - Pascal case to '-' dash separated lower case (e.g. DataFactory --> data-factory
+
 
 # Audio
 
