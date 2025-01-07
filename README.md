@@ -1,6 +1,16 @@
 # AzureContent
 Public content aimed to help for Azure challenges
 
+# Courses
+- [AI for Beginners (this one](https://github.com/microsoft/ai-for-beginners)
+- [Data Science for Beginners](https://github.com/microsoft/Data-Science-For-Beginners)
+- [IoT for Beginners](https://github.com/microsoft/IoT-For-Beginners)
+- [Mastering GitHub Copilot for AI Paired Programming](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming?WT.mc_id=academic-113596-abartolo)
+- [ML for Beginners](https://github.com/microsoft/ML-For-Beginners?WT.mc_id=academic-105485-koreyst)
+- [NEW Cybersecurity for Beginners](https://github.com/microsoft/Security-101??WT.mc_id=academic-96948-sayoung)
+- [Web Dev for Beginners](https://github.com/microsoft/Web-Dev-For-Beginners?WT.mc_id=academic-0000-abartolo)
+- [XR Development for Beginners](https://github.com/microsoft/xr-development-for-beginners?WT.mc_id=academic-105485-koreyst)
+  
 # Architecture
 Several links that can help defining / documenting architectural high level diagrams
 - ## [azurediagrams](https://azurediagrams.com/)
